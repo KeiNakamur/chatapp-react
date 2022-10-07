@@ -32,6 +32,7 @@ function SendMessage() {
                 /* setMessageでmesssage変数内にinputで入力された文字列を格納　 */
                 onChange={(e) => setMessage(e.target.value)}
                 value={message}/>
+                <button>送信</button>
             </div>
         </form>
     </div>

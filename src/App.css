@@ -100,3 +100,28 @@ body {
       margin-top: -7px;
     }
   }
+
+  .sendMsg input {
+    width: 500px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #333;
+  }
+
+  .sendMsg button {
+    height: 30px;
+    width: 60px;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+    margin-left: 20px;
+    border-radius: 4px;
+  }
+
+  .sendMsg button:hover {
+    background-color: #007AFF;
+    border: none;
+    color: #fff;
+  }
